@@ -1,0 +1,33 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+/*header and footer*/
+header, footer{
+    height:150px;
+    min-height:100%;
+    background-color: black;
+    color: white;
+}
+main{
+    min-height: 100vh;
+    display:inline-flex; 
+    background-color: aqua;
+    width: 100%;
+}
+body{
+    overflow: hidden;
+}
+/* left */
+#left{
+    width:53%;
+    background-color: orange;
+    margin-right: 2px;
+}
+#center {
+    background-color: greenyellow;
+    width: 58%;
+    margin-left: 2%;
+    /*margin-left:50;*/
+}
